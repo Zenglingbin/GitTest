@@ -10,6 +10,10 @@ int main()
 	
 	cout << p << " " << *p << endl;
 
+	i = i + 10;
+
+	cout << p << " " << *p << endl;
+
 
 	getchar();
 
