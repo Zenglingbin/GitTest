@@ -1,8 +1,15 @@
-#include "cstdio"
+
+# include <iostream>
+
+using namespace std;
 
 int main()
 {
-	printf("this is the first GitTest \n");
+	int i = 5, j = 10;
+	int *p = &i;
+	
+	cout << p << " " << *p << endl;
+
 
 	getchar();
 
