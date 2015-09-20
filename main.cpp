@@ -1,18 +1,16 @@
 
-# include <iostream>
+#include <iostream>
+#include <cstdio>
 
 using namespace std;
 
 int main()
 {
 	int i = 5, j = 10;
-	int *p = &i;
+	int *p = nullptr;
+
+
 	
-	cout << p << " " << *p << endl;
-
-	i = i + 10;
-
-	cout << p << " " << *p << endl;
 
 
 	getchar();
