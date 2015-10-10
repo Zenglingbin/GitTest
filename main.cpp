@@ -12,10 +12,15 @@ int main()
 
 	i = i + 10;
 
+<<<<<<< Updated upstream
 	cout << p << " " << *p << endl;
 
 
 	getchar();
 
+=======
+    cin.get();
+	//getchar();
+>>>>>>> Stashed changes
 	return 0;
 }
